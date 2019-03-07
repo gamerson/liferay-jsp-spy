@@ -1,0 +1,14 @@
+checkSourceFormatting {
+	maxLineLength = 120
+}
+
+dependencies {
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compileOnly group: "org.osgi", name: "org.osgi.core"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly group: "org.slf4j", name: "slf4j-api", version: "1.7.22"
+}
+
+formatSource {
+	maxLineLength = 120
+}

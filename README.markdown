@@ -7,9 +7,7 @@ select a DOM node on a Liferay page and know what JSP in the portal rendered tha
 This repo contains:
 
 - An [OSGi HTTP Whiteboard servlet filter](modules/jsp-spy/src/main/java/com/liferay/jsp/spy/JspSpyServletFilter.java) that is specially crafted HT: @rotty3000 to intercept every JSP include dispatch in the Liferay framework and injects some inert HTML markup.
-- A very simple [Chrome Devtools extension](modules/jsp-spy-chrome-extension) that listens to Elements panel selection and displays the estimated JSP that rendered that node[^1]
-
-[^1] This is not going to be correct 100% of the time and may require a little sleuthing through the nearby DOM.
+- A very simple [Chrome Devtools extension](modules/jsp-spy-chrome-extension) that listens to Elements panel selection and displays the estimated JSP that rendered that node. This is not going to be correct 100% of the time and may require a little sleuthing through the nearby DOM.
 
 ## How to use it?
 

@@ -1,0 +1,17 @@
+{
+  "name": "jsp-spy-chrome-extension",
+  "version": "0.0.1",
+  "description": "WebExtension for JSP Spy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build",
+    "release:cws": "webextension-toolbox build chrome && webstore upload --source dist/chrome --auto-publish --extension-id dfmdlepepoffncfeninmndcdbemhmoek"
+  },
+  "repository": "https://github.com/gamerson/jsp-spy-demo",
+  "author": "gamerson",
+  "license": "Apache",
+  "dependencies": {
+    "webextension-toolbox": "^3.0.0"
+  }
+}

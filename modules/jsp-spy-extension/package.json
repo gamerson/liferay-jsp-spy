@@ -8,7 +8,7 @@
     "build": "webextension-toolbox build",
     "release:cws": "webextension-toolbox build chrome && webstore upload --source dist/chrome --auto-publish --extension-id dfmdlepepoffncfeninmndcdbemhmoek"
   },
-  "repository": "https://github.com/gamerson/jsp-spy-demo",
+  "repository": "https://github.com/gamerson/liferay-jsp-spy",
   "author": "gamerson",
   "license": "Apache",
   "dependencies": {

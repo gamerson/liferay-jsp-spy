@@ -1,4 +1,4 @@
-# JSP Spy Demo
+# Liferay JSP Spy
 
 ## What is it?
 

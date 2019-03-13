@@ -6,9 +6,9 @@
 
 ## Development
 
-1. `yarn install`
-2. `yarn dev [vendor]` where `[vendor]` can be `chrome`, `firefox`, `opera` or `edge`
-3. Temporary load your extension to your browser from `dist/vendor`   
+1. Run `yarn install` in this folder
+2. Run `yarn dev [vendor]` in this folder, where `[vendor]` can be `chrome`, `firefox`, `opera` or `edge`
+3. Temporary load your extension to your browser from `dist/[vendor]`   
 See [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) for more information
 
 ## Release

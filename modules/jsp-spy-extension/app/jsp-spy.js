@@ -45,7 +45,7 @@ var jspSpy = function() {
 	return panelContents;
 }
 
-chrome.devtools.panels.elements.createSidebarPane("JSP Spy",
+browser.devtools.panels.elements.createSidebarPane("JSP Spy",
 	function(sidebar) {
 		function updateSidebar() {
 			sidebar.setExpression("(" + jspSpy.toString() + ")()");
@@ -53,6 +53,6 @@ chrome.devtools.panels.elements.createSidebarPane("JSP Spy",
 
 		updateSidebar();
 
-		chrome.devtools.panels.elements.onSelectionChanged.addListener(updateSidebar);
+		browser.devtools.panels.elements.onSelectionChanged.addListener(updateSidebar);
 	}
 );

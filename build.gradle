@@ -1,0 +1,3 @@
+distBundle {
+	exclude "com.liferay.jsp.spy*.jar"
+}

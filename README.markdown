@@ -30,8 +30,8 @@ direct.servlet.context.enabled=false
 3. run `blade server run`
 4. run `blade deploy`
 5. cd `modules/jsp-spy-extension`
-6. yarn install
-7. yarn dev chrome 
+6. run `yarn install`
+7. run `yarn dev chrome`
 5. If you are using Chrome, go to [Extensions page](chrome://extensions)
 6. Enable developer mode (right hand side)
 7. Select "load unpacked" and browse to `modules/jsp-spy-extension/dist/chrome` folder

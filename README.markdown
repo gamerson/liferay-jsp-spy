@@ -26,7 +26,8 @@ direct.servlet.context.enabled=false
 ## Give me the exact steps to play around with this
 
 1. Clone this Git repository
-2. Install [blade](https://github.com/liferay/liferay-blade-cli) and [yarn](https://yarnpkg.com) if you don't have them already. 3. Make sure you are using Java 1.8.x, you can check by running `java -version`.
+2. Install [blade](https://github.com/liferay/liferay-blade-cli) and [yarn](https://yarnpkg.com) if you don't have them already.
+3. Make sure you are using Java 1.8.x, you can check by running `java -version`.
 4. Run `blade server init`
 5. Run `blade server run`
 6. Run `blade deploy`

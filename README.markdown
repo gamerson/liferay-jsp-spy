@@ -25,19 +25,21 @@ direct.servlet.context.enabled=false
 
 ## Give me the exact steps to play around with this
 
-1. Clone this repo
-2. run `blade server init`
-3. run `blade server run`
-4. run `blade deploy`
-5. cd `modules/jsp-spy-extension`
-6. run `yarn install`
-7. run `yarn dev chrome`
-5. If you are using Chrome, go to [Extensions page](chrome://extensions)
-6. Enable developer mode (right hand side)
-7. Select "load unpacked" and browse to `modules/jsp-spy-extension/dist/chrome` folder
-8. Open portal page, then open Chrome Devtools `Cmd+Option+I` 
-9. Use element selection to select a DOM element on the page
-10. On Elements Sidebar click the JSP Spy pane.
+1. Clone this Git repository
+2. Install [blade](https://github.com/liferay/liferay-blade-cli) and [yarn](https://yarnpkg.com) if you don't have them already.
+3. Make sure you are using Java 1.8.x, you can check by running `java -version`.
+4. Run `blade server init`
+5. Run `blade server run`
+6. Run `blade deploy`
+7. Run `cd modules/jsp-spy-extension`
+8. Run `yarn install`
+9. Run `yarn dev chrome`
+10. If you are using Chrome, go to [chrome://extensions](chrome://extensions)
+11. Enable developer mode (right hand side)
+12. Select "load unpacked" and browse to `modules/jsp-spy-extension/dist/chrome` folder
+13. Open portal page, then open Chrome Devtools `Cmd+Option+I` 
+14. Use element selection to select a DOM element on the page
+15. On Elements Sidebar click the JSP Spy pane.
 
 ## Screenshots
 
